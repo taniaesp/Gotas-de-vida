@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(/assets/img/agua-blue.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section.title {
+    text-align: center;
+}
+
+#tips {
+    background-image: url(/assets/img/pexels-jill-burrow-6858665.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+#tips .container-tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#tips ul {
+    flex: 1 1 300px;
+    list-style: none;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+#tips ul li {
+    margin-bottom: 0.5rem;
+}
+
+#tips img.manos {
+    flex: 1 1 300px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+div.importante, div.paragraph-1, div.paragraph-2, div.paragraph-3, div.paragraph-4, div.paragraph-5, div.paragraph-6, div.paragraph-7, div.paragraph-8, div.paragraph-9, div.titleH4 {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+div.importante {
+    background-color: #F9EBEA;
+}
+
+div.paragraph-1 {
+    background-color: #F5EEF8;
+}
+
+div.paragraph-2 {
+    background-color: #EAF2F8;
+}
+
+div.paragraph-3 {
+    background-color: #E8F8F5;
+}
+
+div.paragraph-4 {
+    background-color: #E9F7EF;
+}
+
+div.paragraph-5 {
+    background-color: #FEF9E7;
+}
+
+div.paragraph-6 {
+    background-color: #FDF2E9;
+}
+
+div.paragraph-7 {
+    background-color: #FAE5D3;
+}
+
+div.paragraph-8 {
+    background-color: #FCF3CF;
+}
+
+div.paragraph-9 {
+    background-color: #D5F5E3;
+}
+
+div.titleH4 {
+    background-color: #D0ECE7;
+}
+
+.containerImg {
+    background-color: #068396;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.containerImg .imagenesFinales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.containerImg img {
+    flex: 1 1 300px;
+    max-width: 30%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #tips {
+        padding: 1rem;
+    }
+
+    #tips .container-tips {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerImg .imagenesFinales {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .containerImg img {
+    flex: 1 1 300px;
+    max-width: 100%;
+    border-radius: 8px;
+    }
+}
